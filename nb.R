@@ -36,6 +36,7 @@ View(freq)
 
 #Histogram
 hist(freq, xlim = c(0,600))
+hist(dtmatrix)
 #Coverting to DF
 DTM_DF <- data.frame(as.matrix(DTM))
 View(DTM_DF)
